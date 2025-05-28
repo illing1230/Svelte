@@ -1,0 +1,23 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@sveltejs/adapter-auto": "^6.0.1",
+    "@sveltejs/kit": "^2.21.1",
+    "autoprefixer": "^10.4.21",
+    "express": "^5.1.0",
+    "postcss": "^8.5.3",
+    "svelte": "^5.33.4",
+    "tailwindcss": "^4.1.7",
+    "vite": "^6.3.5"
+  }
+}

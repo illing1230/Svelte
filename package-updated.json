@@ -8,14 +8,15 @@
     "start": "node simple-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "mcp",
-    "marketplace",
-    "model-context-protocol"
-  ],
+  "keywords": ["mcp", "marketplace", "model-context-protocol", "svelte"],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7"
   }
 }

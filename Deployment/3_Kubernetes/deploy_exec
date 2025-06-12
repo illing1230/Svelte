@@ -1,0 +1,12 @@
+# 네임스페이스 생성 (선택사항)
+kubectl create namespace your-app
+
+# 매니페스트 적용
+kubectl apply -f backend-deployment.yaml -n your-app
+kubectl apply -f frontend-deployment.yaml -n your-app
+kubectl apply -f ingress.yaml -n your-app
+
+# 배포 상태 확인
+kubectl get pods -n your-app
+kubectl get services -n your-app
+kubectl get ingress -n your-app
